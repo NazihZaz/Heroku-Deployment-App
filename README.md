@@ -1,7 +1,13 @@
 # underwriters-heroku-app
 Deployment Repository of Loan Eligibility Predictor
 
-This repository has been created and used for the deployment of a Loan Eligibility Application as part of the final project of the GATECH Data Science and Analytics Bootcamp.
+This repository has been created and used for the deployment of a Loan Eligibility Application as part of the final team project of the GATECH Data Science and Analytics Bootcamp.
+
+The team was comprised of:
+- [Rajeswari Natchiappan.](https://github.com/RajeeNatch)
+- [Shailesh Godkhindi.](https://github.com/sgodkhindi)
+- [Corey Chickowski.](https://github.com/cchickowski)
+- [Nazih Bouanani](https://github.com/NazihZaz)
 
 A main repository that contains the entire Supervised Machine Learning Model and Flask App development. [Click here to be redirected to that repository](https://github.com/NazihZaz/Project_Underwriters).
 
