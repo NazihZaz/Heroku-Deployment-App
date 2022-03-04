@@ -12,15 +12,15 @@ A main repository that contains the entire Supervised Machine Learning Model and
 a. Home route `("/")` that loads the home page. 
 
 b. Prediction route `("/pred", methods=['POST'])` that collects the input of the online form, transform the array collected using the loaded scaler, runs the scaled array into the model loaded and returns the prediction. 
+
 3. Creation of an [index.html](starter/templates/index.html) to `render_template` the [Flask App](starter/app.py).
 4. Creation of a [style.css](starter/static/css/style.css) to style our webpage.
 5. Creation of a [run.py](run.py) that fires up the [Flask App](starter/app.py).
 6. Creation of a [requirements.txt](requirements.txt) that holds all the imports.
 7. Creation of a [Procfile](Procfile).
 8. Creation of an [__init__.py](starter/__init__.py).
-9. Creation of [.venv folder](.venv) that contains the different environment packages.
-10. Creation of an account and a new app on heroku.com.
-11. Connecting the app to this GitHub Repository and deploying the app https://underwriters-app-pred.herokuapp.com/
+9. Creation of an account and a new app on heroku.com.
+10. Connecting the app to this GitHub Repository and deploying the app https://underwriters-app-pred.herokuapp.com/
 
 Below is a screenshot of the deployed app:
 ![app_image](Image/app_image.PNG)
