@@ -8,8 +8,10 @@ A main repository that contains the entire Supervised Machine Learning Model and
 # Application Development Steps:
 1. Development of the [Supervised Machine Learning Model (including a scaler) and saving it as a pickle file](starter/Credit_Risk_Evaluator_Model.zipCredit_Risk_Evaluator_Model.zip).
 2. Creation of a [Flask App](starter/app.py) which contains 2 routes:
-    a. Home route that loads the home page. `("/")`
-    b. Prediction route `("/pred", methods=['POST'])` that collects the input of the online form, transform the array collected using the loaded scaler, runs the scaled array into the model loaded and returns the prediction. 
+
+a. Home route `("/")` that loads the home page. 
+
+b. Prediction route `("/pred", methods=['POST'])` that collects the input of the online form, transform the array collected using the loaded scaler, runs the scaled array into the model loaded and returns the prediction. 
 3. Creation of an [index.html](starter/templates/index.html) to `render_template` the [Flask App](starter/app.py).
 4. Creation of a [style.css](starter/static/css/style.css) to style our webpage.
 5. Creation of a [run.py](run.py) that fires up the [Flask App](starter/app.py).
